@@ -6,7 +6,7 @@ struct product{
   int taxflag;
   float price;
 } ;
-
+float taxsum(struct product);
 
 int main(){
   float sum = 0;
